@@ -29,3 +29,16 @@
 	  padding: 4rem 1rem 2rem;
 	}
 }
+
+.app__flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.p-text {
+	font-size: 1.2rem;
+	text-align: left;
+	color: var(--gray-color);
+	line-height: 1.5;
+}
