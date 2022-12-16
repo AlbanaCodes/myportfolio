@@ -4,7 +4,7 @@ import { Nabvar } from "./components/components";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Nabvar />
     </div>
   )
