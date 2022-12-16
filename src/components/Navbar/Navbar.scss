@@ -18,3 +18,17 @@
 		height: 48px;
 	}
 }
+
+.app__navbar-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	list-style: none;
+
+	li {
+		margin: 0 1rem;
+		cursor: pointer;
+		flex-direction: column;
+	}
+}

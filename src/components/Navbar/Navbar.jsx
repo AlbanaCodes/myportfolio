@@ -8,7 +8,7 @@ const Navbar = () => {
 			<div className="app__navbar-logo">
 				<img src={images.logo} alt="logo" />
 			</div>
-			<ul>
+			<ul className="app__navbar-links">
 				{ ['home', 'about', 'skills', 'work', 'contact'].map((item) => (
 					<li key={`link-${item}`}>
 						<div />
