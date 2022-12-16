@@ -12,6 +12,11 @@ The stack that I am going to use for this project is going to be:
 - [FramerMotion](https://www.framer.com/motion/) - (ani)motion library
 
 
+## Disclaimers and description
+
+This is my first full web app created with react.js. Therefore I will be using a lot of material and source from the internet. This is my first milestone of my journey to become a react front-end developer.
+
+
 ## Progress
 
-loading 
+loading...
