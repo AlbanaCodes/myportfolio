@@ -1,10 +1,10 @@
-import { useState } from 'react';
-import './App.css';
+import React from "react";
+import { Nabvar } from "./components/components";
 
 function App() {
   return (
     <div className="App">
-      
+      <Nabvar />
     </div>
   )
 }
