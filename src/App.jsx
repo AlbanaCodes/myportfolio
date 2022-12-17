@@ -1,12 +1,12 @@
 import React from "react";
 import './App.scss';
-import { Nabvar } from "./components/components";
+import { Navbar } from "./components/components";
 
 function App() {
   return (
-    <div className="app">
-      <Nabvar />
-    </div>
+    <div className="app bg-primary w-full overflow-hidden">
+		<Navbar />
+	</div>
   )
 }
 

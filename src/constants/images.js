@@ -1,7 +1,7 @@
 import logo from '../assets/logo.png';
 // import profile from '../assets/profile.png';
 import bgIMG from '../assets/bgIMG.png';
-import bgWhite from '../assets/bgWhite.png';
+import bgBlueish from '../assets/bgblueish.png';
 import css from '../assets/css.png';
 import email from '../assets/email.png';
 import git from '../assets/git.png';
@@ -13,7 +13,7 @@ import sass from '../assets/sass.png';
 export default {
 	logo,
 	bgIMG,
-	bgWhite,
+	bgBlueish,
 	css,
 	email,
 	git,
