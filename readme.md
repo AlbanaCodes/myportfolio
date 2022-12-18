@@ -5,6 +5,7 @@ A website to show my front-end projects and experience as a web front-end develo
 ## Stack and tools used
 
 The stack that I am going to use for this project is going to be:
+- [Vite](https://vitejs.dev/) - Used for creating the app and the build tool. Also used for bundling
 - [React](https://reactjs.org/) - for the single page application
 - [Sanity](https://www.sanity.io/) - for the backend
 - [sccs](https://sass-lang.com/) - for the design and layout
