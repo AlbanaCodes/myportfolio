@@ -1,12 +1,12 @@
 import React from "react";
 import './App.scss';
-import { Navbar, Header } from "./components/components";
+import { Navbar, Heroe } from "./components/components";
 
 function App() {
   return (
     <div className="app">
 		<Navbar />
-		<Header />
+		<Heroe />
 	</div>
   )
 }
