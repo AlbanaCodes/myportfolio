@@ -1,1 +1,7 @@
-export { default as Navbar} from './Navbar/Navbar';
+import Header from './Header/Header';
+import Navbar from './Navbar/Navbar';
+
+export {
+	Navbar,
+	Header
+};
