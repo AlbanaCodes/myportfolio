@@ -1,11 +1,12 @@
 import React from "react";
 import './App.scss';
-import { Navbar } from "./components/components";
+import { Navbar, Heroe } from "./components/components";
 
 function App() {
   return (
-    <div className="app bg-primary w-full overflow-hidden">
+    <div className="app">
 		<Navbar />
+		<Heroe />
 	</div>
   )
 }
