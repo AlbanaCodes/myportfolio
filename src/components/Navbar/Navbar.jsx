@@ -14,14 +14,14 @@ const Navbar = () => {
 				<a href='#home'><img src={images.logo} alt="logo" /></a>
 			</div>
 			<ul className="app__navbar-links">
-				{ 
-					listItems.map((item) => (
-						<li className="app__flex p-text" key={`link-${item}`}>
-							<div />
-							<a href={`#${item}`}>{item}</a>
-						</li>
-					))
-				}
+			{
+				listItems.map((item) => (
+					<li className="app__flex p-text" key={`link-${item}`}>
+						<div />
+						<a href={`#${item}`}>{item}</a>
+					</li>
+				))
+			}
 			</ul>
 
 			{/* navbar toggle for smaller screen resoution devices */}

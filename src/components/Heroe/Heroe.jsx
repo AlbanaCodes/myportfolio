@@ -38,13 +38,13 @@ const Heroe = () => {
 			<motion.div variants={scaleVariants}
 						whileInView={scaleVariants.whileInView}
 						className='app__heroe-circles'>
-				{
-					[images.javascript, images.sass, images.html].map((circle, index) => (
-						<div className='circle-cmp app__flex' key={`circle-${index}`}>
-							<img src={circle} alt="circle" />
-						</div>
-					))
-				}
+			{
+				[images.sass, images.javascript, images.html].map((circle, index) => (
+					<div className='circle-cmp app__flex' key={`circle-${index}`}>
+						<img src={circle} alt="circle" />
+					</div>
+				))
+			}
 			</motion.div>
 		</div>
 	)
