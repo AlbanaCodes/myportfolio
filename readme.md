@@ -11,6 +11,7 @@ The stack that I am going to use for this project is going to be:
 - [sccs](https://sass-lang.com/) - for the design and layout
 - [Logo](https://logo.com/) - some of the logos
 - [FramerMotion](https://www.framer.com/motion/) - (ani)motion library
+- [Pixabay](https://pixabay.com/) - images for the content
 
 
 ## Disclaimers and description
