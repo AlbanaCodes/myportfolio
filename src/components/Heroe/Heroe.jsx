@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { images } from '../../constants';
 import './Heroe.scss';
+import { AppWrap } from '../../wrapper';
 
 const scaleVariants = {
 	whileInView: {
@@ -16,7 +17,7 @@ const scaleVariants = {
 
 const Heroe = () => {
 	return(
-		<div id='home' className='app__heroe app__flex'>
+		<div className='app__heroe app__flex'>
 			<motion.div whileInView={{ x: [-100, 0], opacity: [0, 1] }}
 						transition={{ duration: 1 }}
 						className='app__heroe-info'>
@@ -50,4 +51,4 @@ const Heroe = () => {
 	)
 }
 
-export default Heroe;
+export default AppWrap(Heroe, 'home');
