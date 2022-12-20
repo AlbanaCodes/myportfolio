@@ -9,9 +9,6 @@ import html from '../assets/html.png';
 import javascript from '../assets/javascript.png';
 import react from '../assets/react.png';
 import sass from '../assets/sass.png';
-import about01 from '../assets/about01.png';
-import about02 from '../assets/about02.png';
-import about03 from '../assets/about03.jpg';
 
 export default {
 	logo,
@@ -23,8 +20,5 @@ export default {
 	html,
 	javascript,
 	react,
-	sass,
-	about01,
-	about02,
-	about03
+	sass
 };
