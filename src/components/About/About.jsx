@@ -25,7 +25,6 @@ const About = () => {
 	 <br /> <br />
 	 
 	<h2 className="bold-text" style={{ textAlign: 'center'}}>Why Web-Development?</h2>
-
     <div className="app__profiles">
     {
       abouts.map((about, index) => (
@@ -35,7 +34,7 @@ const About = () => {
               		className="app__profile-item"
                		key={about.title + index}>
 
-			<img src={urlFor(about.imageUrl)} alt={about.title} />
+			<img src={urlFor(about.imgUrl)} alt={about.title} />
           	<h2 className="bold-text" style={{ marginTop: 20}}>{about.title}</h2>
           	<p className="p-text" style={{ marginTop: 10}}>{about.description}</p>
         </motion.div>
