@@ -2,19 +2,29 @@ import React, {useState, useEffect} from "react";
 import { motion } from 'framer-motion';
 import { images } from  '../../constants';
 import './About.scss';
-
-const abouts = [
-  {title: 'Web Development', description: 'Access it from any device.', imgUrl: images.about01 },
-  {title: 'Front-end', description: 'The way to talk to the user.', imgUrl: images.about02 },
-  {title: 'Web Design', description: 'Good design attracts people.', imgUrl: images.about03 }
-];
+import { urlFor, client } from "../../client";
 
 const About = () => {
+     const [abouts, setAbouts] = useState([]);
+
+     useEffect(() => {
+	   const query = '*[_type == "abouts"]';
+
+		client.fetch(query)
+		  .then((data) => {
+			setAbouts(data);
+		  })
+	 }, []);
+	 
   return(
   <>
 	<h2 className="head-text"><span>Coding</span> Is Like Cooking. You Follow the <span>Instructions</span>
 	<br />
 	And Add Your <span>Own Stuff!</span></h2>
+
+	 <br /> <br />
+	 
+	<h2 className="bold-text" style={{ textAlign: 'center'}}>Why Web-Development?</h2>
 
     <div className="app__profiles">
     {
@@ -25,7 +35,7 @@ const About = () => {
               		className="app__profile-item"
                		key={about.title + index}>
 
-			<img src={about.imgUrl} alt={about.title} />
+			<img src={urlFor(about.imageUrl)} alt={about.title} />
           	<h2 className="bold-text" style={{ marginTop: 20}}>{about.title}</h2>
           	<p className="p-text" style={{ marginTop: 10}}>{about.description}</p>
         </motion.div>
