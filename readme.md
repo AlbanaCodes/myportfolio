@@ -1,6 +1,6 @@
 # Albana's Portfolio
 
-A website to show my front-end projects and experience as a web front-end developer.
+A website to show my front-end projects and experience as a front-end web developer.
 
 ## Stack and tools used
 
