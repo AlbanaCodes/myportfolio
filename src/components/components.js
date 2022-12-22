@@ -4,6 +4,7 @@ import About from './About/About';
 import SocialMedia from './SocialMedia/SocialMedia';
 import NavigationDots from './NavigationDots/NavigationDots';
 import Work from './Work/Work';
+import Skills from './Skills/Skills';
 
 export {
 	Navbar,
@@ -11,5 +12,6 @@ export {
 	About,
 	SocialMedia,
 	NavigationDots,
-	Work
+	Work,
+	Skills
 };

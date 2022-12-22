@@ -15,7 +15,6 @@ const Work = () => {
 
 	  client.fetch(query)
 	  .then((data) => {
-		console.log('data: ', data);
 		setWorks(data);
 		setFilterWork(data);
 	  })
