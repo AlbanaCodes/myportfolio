@@ -7,7 +7,7 @@ A website to show my front-end projects and experience as a front-end web develo
 The stack that I am going to use for this project is going to be:
 - [Vite](https://vitejs.dev/) - Used for creating the app and the build tool. Also used for bundling
 - [React](https://reactjs.org/) - for the single page application
-- [Sanity](https://www.sanity.io/) - for the backend
+- [Sanity](https://www.sanity.io/) - for the backend/CMS
 - [sccs](https://sass-lang.com/) - for the design and layout
 - [Logo](https://logo.com/) - the logo
 - [FramerMotion](https://www.framer.com/motion/) - (ani)motion library
