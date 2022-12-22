@@ -21,10 +21,8 @@ const About = () => {
 			<h2 className="head-text"><span>Coding</span> Is Like Cooking. You Follow the <span>Instructions</span>
 			<br />
 			And Add Your <span>Own Stuff!</span></h2>
-
-			<br /> <br />
 		
-			<h2 className="bold-text" style={{ textAlign: 'center'}}>Why Web-Development?</h2>
+			<h2 className="bold-text" style={{ textAlign: 'center', marginTop: '3rem'}}>Why Web-Development?</h2>
 			<div className="app__profiles">
 			{
 				abouts.map((about, index) => (

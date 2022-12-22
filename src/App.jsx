@@ -7,7 +7,6 @@ function App() {
     <div className="app">
 		<Navbar />
 		<Heroe />
-		<br />
 		<About />
 		<Work />
 		<Skills />
