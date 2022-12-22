@@ -10,6 +10,12 @@ function App() {
 		<About />
 		<Work />
 		<Skills />
+
+		<div className="app__wrapper app__flex">
+	 		<div className="copyright">
+				<p className="p-text">©{new Date().getFullYear()} Albana</p>
+			</div>
+		</div>
 	</div>
   )
 }
