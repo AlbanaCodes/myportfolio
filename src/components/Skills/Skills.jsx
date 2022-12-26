@@ -15,7 +15,6 @@ const Skills = () => {
 		const skillsQuery = '*[_type == "skills"]';
 
 		client.fetch(query).then((data) => {
-			console.log('exp: ', data);
 			setExperiences(data);
 		});
 
@@ -87,4 +86,5 @@ const Skills = () => {
 export default AppWrap(
   MotionWrap(Skills, 'app__skills'),
   'skills',
+  "app__primarybg"
 );
