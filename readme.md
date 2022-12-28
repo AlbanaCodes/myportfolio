@@ -20,7 +20,7 @@ This is my first full web app created with react.js. Therefore I will be using a
 
 You might find the "same" project or something similar in different repositories from other users, but I did do a lot of changes from the original source and inspiration. I removed things that don't belong to my profile, removed the background, added some basic validation for the contact form, did some small design changes, version breaking changes of different packages (like React-Tooltip), a more simple and beginner like project/folder structure, etc. 
 
-This project with be in continuous development as long as I keep learning and improving myself.
+This project will be in continuous development as long as I keep learning and improving myself.
 
 Thank you for your attention :)
 
