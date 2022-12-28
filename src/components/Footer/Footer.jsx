@@ -27,8 +27,6 @@ const Footer = () => {
 		} else {
 			setFormValid(false);
 		}
-
-		handleValidation(name, value);
 	};
 
 	const handleSubmit = () => {
