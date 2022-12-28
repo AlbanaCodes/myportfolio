@@ -33,7 +33,6 @@ const Footer = () => {
 
 	const handleSubmit = () => {
     	setLoading(true);
-		console.log('formdata.usernam: ', formData.username);
 		const contact = {
 			_type: 'contact',
 			name: formData.username,
