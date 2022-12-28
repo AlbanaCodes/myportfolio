@@ -17,7 +17,11 @@ The stack that I am going to use for this project is going to be:
 ## Disclaimers and description
 
 This is my first full web app created with react.js. Therefore I will be using a lot of material and source from the internet, more specific from youtube. This is my first milestone of my journey to become a react front-end developer.
-You might find the "same" project or something similar on many places, but I did do a lot of changes from the original source and inspiration. I removed things that don't belong to my profile, removed the background, added some basic validation for the contact form, did some small design changes, etc. This project with be in continuous development as long as I keep improving myself.
+
+You might find the "same" project or something similar on many places, but I did do a lot of changes from the original source and inspiration. I removed things that don't belong to my profile, removed the background, added some basic validation for the contact form, did some small design changes, etc. 
+
+This project with be in continuous development as long as I keep learning and improving myself.
+
 Thank you for your attention :)
 
 
