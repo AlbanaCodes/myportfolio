@@ -10,6 +10,8 @@
   	--brown-color: #46364a;
   	--white-color: #ffffff;
 	--royal-color: #6631ac;
+	--royal-color-transparent: #6631acd4;
+	--primary-color-strong: #d393ef;
 }
 
 * {
