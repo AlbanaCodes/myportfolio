@@ -5,7 +5,7 @@ import SocialMedia from './SocialMedia/SocialMedia';
 import NavigationDots from './NavigationDots/NavigationDots';
 import Work from './Work/Work';
 import Skills from './Skills/Skills';
-import Footer from './Footer/Footer';
+import ContactMe from './ContactMe/ContactMe';
 
 export {
 	Navbar,
@@ -15,5 +15,5 @@ export {
 	NavigationDots,
 	Work,
 	Skills,
-	Footer
+	ContactMe
 };

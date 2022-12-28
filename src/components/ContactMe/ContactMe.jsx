@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { client } from '../../client';
-import './Footer.scss';
+import './ContactMe.scss';
 
-const Footer = () => {
+const ContactMe = () => {
 	const [formData, setFormData] = useState({ username: '', email: '', message: '' });
 	const [isFormSubmitted, setIsFormSubmitted] = useState(false);
 	const [loading, setLoading] = useState(false);
@@ -51,7 +51,7 @@ const Footer = () => {
 		<h2 className="head-text">Curious enough? Send me a message!</h2>
 		{
 			!isFormSubmitted ? (
-				<div className="app__footer-form app__flex">
+				<div className="app__contactme-form app__flex">
 					<div className="app__flex">
 						<input tabIndex="1" className="p-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} />
 					</div>
@@ -81,6 +81,6 @@ const Footer = () => {
 };
 
 export default AppWrap(
-  MotionWrap(Footer, 'app__footer'),
+  MotionWrap(ContactMe, 'app__contactme'),
   'contact'
 );
