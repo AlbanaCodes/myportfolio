@@ -48,3 +48,5 @@ export default AppWrap(
    'web dev',
    "app__primarybg"
 );
+
+// export default AppWrap(About,'web dev', 'app__primarybg');

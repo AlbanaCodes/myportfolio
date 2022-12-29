@@ -48,9 +48,10 @@ const ContactMe = () => {
 
 	return (
 		<>
-		<h2 className="head-text">Did I spark your attention? Send me a message!</h2>
 		{
 			!isFormSubmitted ? (
+				<>
+				<h2 className="head-text">Did I spark your attention? Send me a message!</h2>
 				<div className="app__contactme-form app__flex">
 					<div className="app__flex">
 						<input tabIndex="1" className="p-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} />
@@ -68,6 +69,7 @@ const ContactMe = () => {
 					</div>
 					<button type="button" className="p-text" disabled={!formValid} onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>
 				</div>
+				</>
 			) : (
 				<div>
 					<h3 className="head-text">
@@ -84,3 +86,4 @@ export default AppWrap(
   MotionWrap(ContactMe, 'app__contactme'),
   'contact'
 );
+// export default AppWrap(ContactMe,'contact');
