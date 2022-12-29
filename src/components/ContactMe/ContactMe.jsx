@@ -48,7 +48,7 @@ const ContactMe = () => {
 
 	return (
 		<>
-		<h2 className="head-text">Curious enough? Send me a message!</h2>
+		<h2 className="head-text">Did I spark your attention? Send me a message!</h2>
 		{
 			!isFormSubmitted ? (
 				<div className="app__contactme-form app__flex">
