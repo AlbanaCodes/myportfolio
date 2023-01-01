@@ -23,8 +23,3 @@ You might find the "same" project or something similar in different repositories
 This project will be in continuous development as long as I keep learning and improving myself.
 
 Thank you for your attention :)
-
-
-## Progress
-
-loading...
