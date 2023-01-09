@@ -84,6 +84,7 @@ const ContactMe = () => {
 
 export default AppWrap(
   MotionWrap(ContactMe, 'app__contactme'),
-  'contact'
+  'contact',
+  'app__primarybg'
 );
 // export default AppWrap(ContactMe,'contact');

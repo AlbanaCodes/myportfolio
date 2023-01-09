@@ -89,4 +89,4 @@ const Skills = () => {
 //   "app__primarybg"
 // );
 
-export default AppWrap(Skills, 'skills', 'app__primarybg');
+export default AppWrap(Skills, 'skills');

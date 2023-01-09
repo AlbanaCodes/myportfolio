@@ -1,13 +1,12 @@
 import React from "react";
 import './App.scss';
-import { Navbar, Heroe, About, Work, Skills, ContactMe } from "./components/components";
+import { Navbar, Heroe, Work, Skills, ContactMe } from "./components/components";
 
 function App() {
   return (
     <div className="app">
 		<Navbar />
 		<Heroe />
-		<About />
 		<Work />
 		<Skills />
 		<ContactMe />
