@@ -3,7 +3,6 @@ import Navbar from './Navbar/Navbar';
 import SocialMedia from './SocialMedia/SocialMedia';
 import NavigationDots from './NavigationDots/NavigationDots';
 import Work from './Work/Work';
-import Skills from './Skills/Skills';
 import ContactMe from './ContactMe/ContactMe';
 
 export {
@@ -12,6 +11,5 @@ export {
 	SocialMedia,
 	NavigationDots,
 	Work,
-	Skills,
 	ContactMe
 };

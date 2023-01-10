@@ -1,6 +1,6 @@
 import React from "react";
 import './App.scss';
-import { Navbar, Heroe, Work, Skills, ContactMe } from "./components/components";
+import { Navbar, Heroe, Work, ContactMe } from "./components/components";
 
 function App() {
   return (
@@ -8,10 +8,9 @@ function App() {
 		<Navbar />
 		<Heroe />
 		<Work />
-		<Skills />
 		<ContactMe />
 
-		<div className="app__wrapper app__flex">
+		<div className="app__wrapper app__flex app__primarybg">
 	 		<div className="copyright">
 				<p className="p-text">©{new Date().getFullYear()} Albana</p>
 			</div>
