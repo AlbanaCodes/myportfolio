@@ -11,12 +11,11 @@ The stack that I am going to use for this project is going to be:
 - [sccs](https://sass-lang.com/) - for the design and layout
 - [Logo](https://logo.com/) - the logo
 - [FramerMotion](https://www.framer.com/motion/) - (ani)motion library
-- [Pixabay](https://pixabay.com/) - images for the content
 
 
 ## Information about the project
 
-This is my first full web app created with react.js. Therefore I will be using a lot of material and source from the internet, more specific from youtube. This is my first milestone of my journey to become a react front-end developer.
+This is my first full web app created with react.js. This is my first milestone of my journey to become a react front-end developer.
 
 This project will be in continuous development as long as I keep learning and improving myself.
 
