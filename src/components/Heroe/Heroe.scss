@@ -4,6 +4,9 @@
 	// background-size: cover;
 	// background-repeat: repeat;
 	// background-position: center;
+	//padding-top: 0%;
+	//width: 80%;
+	//margin: 0 auto;
 
 	.app__wrapper {
 		padding: 0;
@@ -42,6 +45,7 @@
 	align-items: flex-start;
 	height: 100%;
 	margin: 0 2rem;
+	padding-top: 2rem;
 
 	@media screen and (max-width: 2000px) {
 		width: 100%;
